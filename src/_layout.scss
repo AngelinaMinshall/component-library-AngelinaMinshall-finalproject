@@ -1,13 +1,70 @@
+
+
+/* About */
+
 #about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center
+}
+
+#schedule {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  background: linear-gradient(180deg,
+  rgba(245, 69, 66, 0),
+  rgb(255, 255, 255)) lightgreen;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+
+
+.logo {
+  display: flex;
+}
+
+
+  #speakers {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    flex-direction: column;
-    text-align: center
+    align-content: space-around;
   }
 
-  #schedule {
+  h2 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    text-align: center
   }
+  
+  /* .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+   */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+}
+ #sponsers {
+  background: linear-gradient(180deg,
+  rgba(245, 69, 66, 0),
+  rgb(255, 255, 255)) lightgreen;
+  padding: 5px;
+  margin-top: 15px;
+ }
+

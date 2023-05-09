@@ -1,24 +1,55 @@
-
+/* Hero */
 .hero {
-    background-image: url(./imgs/hero.jpeg);
-    height: 250px
-  }
-  .hero-text {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-  }
-  #header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .festival {
-    display: flex;
-    justify-content: space-around;
-  }
+  background-image: linear-gradient(180deg,
+  rgba(245, 69, 66, 0),
+  rgb(255, 255, 255)), url(./imgs/hero.jpeg);
+  height: 250px
+}
+.hero-text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  // font-family: 'Times New Roman', Times, serif;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #e64992;
+  padding: 15px;
+  list-style-type: none;
+}
+ 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.about:hover {
+  background-color: #bd3675;
+  transition: .5s;
+}
+.schedule:hover {
+  background-color:  #bd3675;
+  transition: .5s;
+}
+.speakers:hover {
+  background-color:  #bd3675;
+  transition: .5s;
+
+}
+.sponsers:hover {
+  background-color:  #bd3675;
+  transition: .5s;
+}
+.registration:hover {
+  background-color:  #bd3675;
+  transition: .5s;
+}
