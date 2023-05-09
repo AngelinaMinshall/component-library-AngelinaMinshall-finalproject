@@ -1,5 +1,24 @@
 
 .hero {
-    background-image: url(hero.jpeg);
-    font-family: 'Times New Roman', Times, serif;
-}
+    background-image: url(./imgs/hero.jpeg);
+    height: 250px
+  }
+  .hero-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  #header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .festival {
+    display: flex;
+    justify-content: space-around;
+  }
