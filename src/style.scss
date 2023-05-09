@@ -1,11 +1,6 @@
-//This is our root SCSS file.
-//Underscore partials will be combined with this file hen imported
-@import 'reset';
-@import 'variables';
-@import 'layout';
+@import 'hero'
 
-
-@import 'button';
-@import 'hero';
-@import 'footer';
-@import 'navigation';
+#schedule {
+    display: flex;
+    justify-content: center;
+}
