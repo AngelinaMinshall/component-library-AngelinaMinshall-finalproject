@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GDES-Web/component-library-AngelinaMinshall.git"
+    "url": "git+https://github.com/AngelinaMinshall/component-library-AngelinaMinshall.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GDES-Web/component-library-AngelinaMinshall/issues"
+    "url": "https://github.com/AngelinaMinshall/component-library-AngelinaMinshall/issues"
   },
-  "homepage": "https://github.com/GDES-Web/component-library-AngelinaMinshall#readme",
+  "homepage": "https://github.com/AngelinaMinshall/component-library-AngelinaMinshall#readme",
   "devDependencies": {
     "sass": "^1.62.1"
   },
